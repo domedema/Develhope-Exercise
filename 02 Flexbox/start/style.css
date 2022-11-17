@@ -1,0 +1,22 @@
+.sidebar{
+    width: 200px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+.links{
+    flex: 1;
+
+}
+.sidebar>div{
+    display: flex;
+    flex-direction: column;
+}
+a{
+    color: #2b2b2b;
+    transition: 0.3s;
+}
+a:hover{
+    color: #2b2bb2;
+}
