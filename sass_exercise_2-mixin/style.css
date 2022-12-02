@@ -1,0 +1,24 @@
+body {
+  border: 1px solid rgb(234, 12, 12);
+}
+body h1 {
+  color: green;
+  text-decoration: underline rgb(53, 53, 241);
+}
+
+section {
+  display: flex;
+}
+section article {
+  border: 1px solid green;
+  padding: 5px;
+}
+
+.section2 {
+  border: 1px solid rgb(53, 53, 241);
+}
+.section2 article {
+  color: green;
+}
+
+/*# sourceMappingURL=style.css.map */

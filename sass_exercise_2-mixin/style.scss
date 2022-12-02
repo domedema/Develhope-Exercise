@@ -1,0 +1,30 @@
+$border-green:1px solid green;
+$blue: rgb(53, 53, 241);
+$red:rgb(234, 12, 12);
+
+body{
+    border: 1px solid $red;
+    h1{
+        color: green;
+        text-decoration: underline $blue;
+    }
+    
+}
+
+
+section{
+    display: flex;
+    
+    article{
+    border: $border-green;
+    
+    padding: 5px;
+}
+}
+.section2{
+    border: 1px solid $blue;
+    article{
+        color: green;
+    }
+
+}
