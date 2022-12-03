@@ -1,0 +1,55 @@
+@use "colors.scss" as c;
+@use "functions.scss" as f;
+
+body{
+    border: f.rem(1) solid c.$red;
+   
+}
+ 
+.title{
+    color: c.$green;
+    text-align: center;
+    &_td{
+        @extend .title; 
+        text-decoration: underline;
+        text-decoration-color: c.$blue;
+        text-underline-offset: f.rem(5);
+    }
+}
+
+.subtitle{
+    @extend .title;
+    &_td{
+        @extend .subtitle;
+        border: f.rem(1) solid c.$red;
+        padding: 1rem;
+        display: inline-block;
+    }
+}
+
+.inline{
+    text-align: center;
+}
+
+.footer article{
+    margin: 0 auto;
+}
+ 
+
+
+section{
+    display: flex;
+    margin: 1em;
+    article{
+    border: f.rem(1) solid c.$green;
+    
+    padding: f.rem(5);
+}
+}
+.section2{
+    border: f.rem(1) solid c.$blue;
+    article{
+        color: c.$green;
+    }
+
+}
