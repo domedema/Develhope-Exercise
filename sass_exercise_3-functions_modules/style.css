@@ -1,0 +1,24 @@
+body {
+  border: 0.0625rem solid rgb(234, 12, 12);
+}
+body h1 {
+  color: rgb(15, 221, 15);
+  text-decoration: underline rgb(53, 53, 241);
+}
+
+section {
+  display: flex;
+}
+section article {
+  border: 0.0625rem solid rgb(15, 221, 15);
+  padding: 0.3125rem;
+}
+
+.section2 {
+  border: 0.0625rem solid rgb(53, 53, 241);
+}
+.section2 article {
+  color: rgb(15, 221, 15);
+}
+
+/*# sourceMappingURL=style.css.map */

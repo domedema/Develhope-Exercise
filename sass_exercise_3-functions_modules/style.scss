@@ -1,0 +1,29 @@
+@use "colors.scss" as c;
+@use "functions.scss" as f;
+
+body{
+    border: f.rem(1) solid c.$red;
+    h1{
+        color: c.$green;
+        text-decoration: underline c.$blue;
+    }
+    
+}
+
+
+section{
+    display: flex;
+    
+    article{
+    border: f.rem(1) solid c.$green;
+    
+    padding: f.rem(5);
+}
+}
+.section2{
+    border: f.rem(1) solid c.$blue;
+    article{
+        color: c.$green;
+    }
+
+}
